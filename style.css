@@ -1,0 +1,58 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.half-width {
+    width: 40%;
+    margin-top: 50px;
+    position: relative;
+    left: 300px;
+}
+
+.half-width h1 {
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 60px;
+    color: #333333;
+}
+
+.half-width img {
+    width: 60%;
+    position: relative;
+    bottom: 16%;
+}
+
+.header-info {
+    padding-bottom: 18px;
+    font-size: 18px;
+}
+
+.about-us-info {
+    padding-top: 18px;
+    font-size: 16px;
+}
+
+.mission-22 {
+    color: #FFAD5A;
+}
+
+.flexible-container {
+    display: flex;
+}
+
+.line {
+    border-left: 3px solid #FF5959;
+    height: 122px;
+    position: absolute;
+    left: -15px;
+    top: 60px;
+    border-radius: 10px;
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: #FF5959;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
