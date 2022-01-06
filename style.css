@@ -40,7 +40,7 @@ body {
 }
 
 .mission-22 {
-    color: #e0841a;
+    color: #0f686e;
 }
 
 .flexible-container {
@@ -52,24 +52,27 @@ body {
     height: 122px;
     position: absolute;
     left: -15px;
-    top: 60px;
+    top: 59px;
     border-radius: 10px;
 }
 
 .link-button {
     text-decoration: none;
-    background-color: #FF5959;
+    background-color: #259baf;
     color: white;
     padding: 10px 25px;
     border-radius: 5px;
 }
+
+
+/* mission section */
 
 .mission-area {
     margin-top: 150px;
     margin-bottom: 180px;
 }
 
-.mission-2022 {
+.mission-2022 h1 {
     text-align: center;
 }
 
@@ -79,7 +82,7 @@ body {
 }
 
 .mission-2022 span {
-    color: #e0841a;
+    color: #0f686e;
 }
 
 #mission {
@@ -110,6 +113,9 @@ body {
     margin-right: 300px;
 }
 
+
+/* develop section */
+
 .develop-area {
     margin-bottom: 100px;
     background-image: url(images/shapes/shape-1.png);
@@ -118,10 +124,15 @@ body {
     background-position: 25ex;
 }
 
-.develop {
+.develop-area .half-width {
     position: relative;
-    left: 140px;
-    bottom: 74px;
+    left: 247px;
+    bottom: 50px;
+}
+
+.develop-area .develop {
+    position: relative;
+    left: 104px;
 }
 
 .develop h1 {
@@ -142,12 +153,17 @@ body {
     background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
     background-size: 200px;
-    background-position: 160ex;
+    background-position: 165ex;
 }
 
 .community {
     position: relative;
     bottom: 74px;
+}
+
+.community-area .half-width {
+    position: relative;
+    bottom: 66px;
 }
 
 .community h1 {
@@ -177,7 +193,7 @@ body {
 .contact-us-area {
     text-align: center;
     margin-left: 300px;
-    margin-right: 350px;
+    margin-right: 340px;
     margin-top: 100px;
     margin-bottom: 130px;
 }
@@ -243,6 +259,12 @@ body {
     background-color: black;
     color: white;
     padding: 20px 140px;
+}
+
+.footer h2 {
+    font-family: 'Lobster Two', cursive;
+    font-size: 36px;
+    font-weight: 400;
 }
 
 .footer span {
