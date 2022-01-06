@@ -20,7 +20,8 @@ body {
 .half-width img {
     width: 60%;
     position: relative;
-    bottom: 16%;
+    padding-top: 10px;
+    padding-left: 50px;
 }
 
 .half-width a {
@@ -64,6 +65,7 @@ body {
 }
 
 .mission-area {
+    margin-top: 150px;
     margin-bottom: 180px;
 }
 
@@ -187,6 +189,7 @@ body {
     background-color: #FF59591A;
     border-radius: 5px;
     padding-left: 10px;
+    outline: none;
 }
 
 .mail {
@@ -196,6 +199,7 @@ body {
     background-color: #FF59591A;
     border-radius: 5px;
     padding-left: 10px;
+    outline: none;
 }
 
 .phone {
@@ -205,6 +209,7 @@ body {
     background-color: #FF59591A;
     border-radius: 5px;
     padding-left: 10px;
+    outline: none;
 }
 
 .message {
@@ -214,6 +219,7 @@ body {
     background-color: #FF59591A;
     border-radius: 5px;
     padding-left: 10px;
+    outline: none;
 }
 
 .send-button {
